@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z3roTrac3.sh</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="terminal-loading">
+            <div class="loading-lines">
+                <div class="loading-line">[*] Initializing security protocols...</div>
+                <div class="loading-line">[+] Establishing encrypted connection...</div>
+                <div class="loading-line">[+] Loading threat intelligence modules...</div>
+                <div class="loading-line">[+] Activating firewall...</div>
+                <div class="loading-line">[+] Scanning for vulnerabilities...</div>
+                <div class="loading-line">[+] Bypassing intrusion detection...</div>
+                <div class="loading-line">[+] Accessing secure terminal...</div>
+                <div class="loading-line success">[✓] All systems operational</div>
+                <div class="loading-line success">[✓] Welcome to Z3roTrac3.exe</div>
+            </div>
+        </div>
+        <div class="matrix-bg"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="terminal-prompt">root@</span>HarshJagadale
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#tools" class="nav-link">Tools</a></li>
+                <li><a href="#interactive" class="nav-link">Interactive</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content hidden">
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="ascii-art">
+                        <pre>
+      ________  ________  ________  ________  _________  ________  ________  ________ ________     
+|\_____  \|\_____  \|\   __  \|\   __  \|\___   ___\\   __  \|\   __  \|\   ____\\_____  \    
+ \|___/  /\|____|\ /\ \  \|\  \ \  \|\  \|___ \  \_\ \  \|\  \ \  \|\  \ \  \___\|____|\ /_   
+     /  / /     \|\  \ \   _  _\ \  \\\  \   \ \  \ \ \   _  _\ \   __  \ \  \        \|\  \  
+    /  /_/__   __\_\  \ \  \\  \\ \  \\\  \   \ \  \ \ \  \\  \\ \  \ \  \ \  \____  __\_\  \ 
+   |\________\|\_______\ \__\\ _\\ \_______\   \ \__\ \ \__\\ _\\ \__\ \__\ \_______\\_______\
+    \|_______|\|_______|\|__|\|__|\|_______|    \|__|  \|__|\|__|\|__|\|__|\|_______\|_______|
+                                                                                              
+                                                                                                                                                                                         
+                        </pre>
+                    </div>
+                    <h1 class="hero-title glitch" data-text="CYBERSECURITY ANALYST">CYBERSECURITY ANALYST</h1>
+                    <p class="hero-tagline">PENETRATING SYSTEMS • HUNTING THREATS • SECURING NETWORKS</p>
+                    <div class="terminal-prompt-container">
+                        <span class="prompt">user@root:~$ </span>
+                        <span class="typing-text"></span>
+                        <span class="cursor-blink">█</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">about.sh - Terminal</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">user@hackr:~$ </span>
+                            <span class="command">whoami</span>
+                        </div>
+                        <div class="output">
+                            Harsh JagadaleCybersecurity Analyst with 3+ years experience in threat hunting,
+                            Privilege Escalation, and network security and Malware Analysis. Currently engaged in CTF's and red teaming exercises on TryHackMe. 
+                        </div>
+                        
+                        <div class="command-line">
+                            <span class="prompt">user@hackr:~$ </span>
+                            <span class="command">skills --list</span>
+                        </div>
+                        <div class="output">
+                            <div class="skills-grid">
+                                <div class="skill-item">Network Security</div>
+                                <div class="skill-item">Penetration Testing</div>
+                                <div class="skill-item">Threat Hunting</div>
+                                <div class="skill-item">Incident Response</div>
+                                <div class="skill-item">Malware Analysis</div>
+                                <div class="skill-item">Vulnerability Assessment</div>
+                                <div class="skill-item">Risk Management</div>
+                            </div>
+                        </div>
+                        
+                        <div class="command-line">
+                            <span class="prompt">user@hackr:~$ </span>
+                            <span class="command">certifications</span>
+                        </div>
+                        <div class="output">
+                            <div class="cert-list">
+                                <div class="cert-item">
+                                    <span class="cert-status success">[✓]</span> Certified Ethical Hacker (CEH) v12 
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-status success">[✓]</span> TryHackMe - Jr Pentester
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-status progress">[✓]</span> Microsoft Azure Capstone Project
+                                </div>
+                                <div class="cert-item">
+                                    <span class="cert-status planned">[✓]</span> IBM Capstone Project
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">projects.log - File Explorer</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">user@hackr:~/projects$ </span>
+                            <span class="command">ls -la</span>
+                        </div>
+                        <div class="output">
+                            <div class="file-listing">
+                                <!-- <div class="file-item" data-project="0">
+                                    <span class="file-permissions">-rw-r--r--</span>
+                                    <span class="file-size">2.4MB</span>
+                                    <span class="file-date">Dec 15</span>
+                                    <span class="file-name">enterprise_audit.log</span>
+                                </div> -->
+                                <div class="file-item" data-project="0">
+                                    <span class="file-permissions">-rwx-r-x--</span>
+                                    <span class="file-size">1.8MB</span>
+                                    <span class="file-date">Nov 28</span>
+                                    <span class="file-name">threat_hunting.py</span>
+                                </div>
+                                <div class="file-item" data-project="1">
+                                    <span class="file-permissions">-rwx-r-x--</span>
+                                    <span class="file-size">856KB</span>
+                                    <span class="file-date">Oct 20</span>
+                                    <span class="file-name">incident_response.sh</span>
+                                </div>
+                                <div class="file-item" data-project="2">
+                                    <span class="file-permissions">-rw-r--r--</span>
+                                    <span class="file-size">3.1MB</span>
+                                    <span class="file-date">Sep 14</span>
+                                    <span class="file-name">vuln_assessment.nmap</span>
+                                </div>
+                                <div class="file-item" data-project="3">
+                                    <span class="file-permissions">-rw-r--r--</span>
+                                    <span class="file-size">645KB</span>
+                                    <span class="file-date">Aug 30</span>
+                                    <span class="file-name">siem_rules.yml</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-details hidden">
+                            <div class="command-line">
+                                <span class="prompt">user@hackr:~/projects$ </span>
+                                <span class="command">cat <span class="selected-file"></span></span>
+                            </div>
+                            <div class="project-info"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="tools-section">
+            <div class="container">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">tools - Directory Structure</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">user@hackr:~$ </span>
+                            <span class="command">tree /tools/</span>
+                        </div>
+                        <div class="output">
+                            <div class="directory-tree">
+                                <div class="tree-item">
+                                    <span class="tree-icon">📁</span>/tools/
+                                </div>
+                                <div class="tree-item level-1">
+                                    <span class="tree-icon">📂</span>reconnaissance/
+                                    <div class="tool-list">
+                                        <span class="tool">nmap</span>
+                                        <span class="tool">subfinder</span>
+                                        <span class="tool">gobuster</span>
+                                        <span class="tool">ffuf</span>
+                                    </div>
+                                </div>
+                                <div class="tree-item level-1">
+                                    <span class="tree-icon">📂</span>exploitation/
+                                    <div class="tool-list">
+                                        <span class="tool">metasploit</span>
+                                        <span class="tool">burp-suite</span>
+                                        <span class="tool">sqlmap</span>
+                                        <span class="tool">hydra</span>
+                                        <span class="tool">john</span>
+                                        <span class="tool">hashcat</span>
+                                    </div>
+                                </div>
+                                <div class="tree-item level-1">
+                                    <span class="tree-icon">📂</span>monitoring/
+                                    <div class="tool-list">
+                                        <span class="tool">splunk</span>
+                                        <span class="tool">elk-stack</span>
+                                        <span class="tool">suricata</span>
+                                    </div>
+                                </div>
+                                <div class="tree-item level-1">
+                                    <span class="tree-icon">📂</span>analysis/
+                                    <div class="tool-list">
+                                        <span class="tool">ghidra</span>
+                                        <span class="tool">ida-pro</span>
+                                        <span class="tool">radare2</span>
+                                        <span class="tool">wireshark</span>
+                                        <span class="tool">tcpdump</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Section -->
+        <section id="interactive" class="interactive-section">
+            <div class="container">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">interactive_tools.sh - Security Toolkit</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="disclaimer">
+                            <span class="warning">[!] DISCLAIMER: Educational/Portfolio purposes only</span>
+                        </div>
+                        
+                        <div class="command-line">
+                            <span class="prompt">user@root:~/tools$ </span>
+                            <span class="command">ls *.sh *.py</span>
+                        </div>
+                        <div class="output">
+                            <div class="interactive-tools">
+                                <button class="tool-button" data-tool="ip-scanner">scan_ip.sh</button>
+                                <button class="tool-button" data-tool="port-scanner">port_scan.sh</button>
+                                <button class="tool-button" data-tool="hash-decoder">crack_hash.py</button>
+                                <button class="tool-button" data-tool="network-ping">ping_sweep.sh</button>
+                                <button class="tool-button" data-tool="packet-sniffer">sniff_traffic.py</button>
+                            </div>
+                        </div>
+                        
+                        <div id="tool-interface" class="tool-interface hidden">
+                            <!-- Tool interfaces will be dynamically loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-title">contact.sh - Communication Interface</div>
+                    </div>
+                    <div class="terminal-content">
+                        <div class="command-line">
+                            <span class="prompt">user@hackr:~$ </span>
+                            <span class="command">./contact_info.sh</span>
+                        </div>
+                        <div class="output">
+                            <div class="contact-info">
+                                <div class="contact-item">
+                                    <span class="contact-label">EMAIL:</span>
+                                    <span class="contact-value">harshjagadale3211@gmail.com</span>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">GITHUB:</span>
+                                    <!-- <span class="contact-value">github.com/z3roTrac3</span> -->
+                                    <a href="https://github.com/z3roTrac3" target="_blank">github.com/z3roTrac3</a>
+                                </div>
+                                <div class="contact-item">
+                                    <span class="contact-label">LOCATION: Unable to fetch</span>
+                                    <span class="contact-value"> Remote/Global</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="command-line">
+                            <span class="prompt">user@hackr:~$ </span>
+                            <span class="command">nano message.txt</span>
+                        </div>
+                        <div class="output">
+                            <form id="contact-form" class="terminal-form">
+                                <div class="form-group">
+                                    <label class="terminal-label">$ echo "name: <input type="text" id="name" required class="terminal-input"></label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="terminal-label">$ echo "email: <input type="email" id="email" required class="terminal-input"></label>
+                                </div>
+                                <div class="form-group">
+                                    <label class="terminal-label">$ echo "message: <textarea id="message" required class="terminal-textarea"></textarea></label>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="terminal-submit">$ ./send_message.sh</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="container footer-container">
+    <p class="copyright">© 2025 Z3r0Trac3. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/z3roTrac3" target="_blank" aria-label="GitHub">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="social-icon">
+      </a>
+      <a href="https://www.linkedin.com/in/harsh-jagadale-6bb76a2a6" target="_blank" aria-label="LinkedIn">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" class="social-icon">
+      </a>
+    </div>
+  </div>
+</footer>
+
+</html>
